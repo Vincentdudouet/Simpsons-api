@@ -1,0 +1,53 @@
+.button {
+background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(195,23,23,0.4640056706276261) 99%, rgba(0,212,255,1) 100%); 
+  box-shadow: 30px, 30px 10px 9px pink;
+  width: 10%;
+  height: 10em;
+    border-radius: 50%;
+}
+
+.button:hover{
+  background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,0,0,0.710504270067402) 99%, rgba(0,212,255,1) 100%);
+}
+.button p {
+  color: rgb(195, 171, 171);
+  text-align: center;
+  
+}
+
+
+.App {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  
+}
+
+.QuoteCard {
+  display: flex;
+  padding: 1.25em;
+  width: 400px;
+  border: 2px solid #d49e9e;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  font-size: 1.2em;
+  background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(214,196,39,1) 34%, rgba(0,212,255,1) 100%);
+  box-shadow: 5px 6px 10px pink;
+  border-radius: 15px;
+}
+
+.QuoteCard img {
+  max-width: 200px;
+  margin-right: 3em;
+}
+
+.QuoteCard cite {
+  margin-left: 50px;
+}
+
